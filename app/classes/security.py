@@ -1,4 +1,3 @@
-from flask import current_app
 from werkzeug.security import safe_str_cmp
 from app.models.user import UserModel
 

@@ -8,8 +8,6 @@ from app.classes.db import db
 
 from app.classes.security import authenticate, identity
 from app.resources.user import UserRegister, UserList, UserInfo, UserIdentity
-from app.resources.backups import BackupsList
-from app.resources.restore import ProcessBackupFile
 
 
 app = Flask(__name__)

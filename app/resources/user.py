@@ -1,4 +1,3 @@
-from flask import current_app, jsonify
 from flask_restful import Resource, reqparse
 from flask_jwt import jwt_required, current_identity
 from app.models.user import UserModel

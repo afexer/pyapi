@@ -1,4 +1,3 @@
-from flask import current_app, request
 from app.worker import start_worker
 from rq import Queue
 
