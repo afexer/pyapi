@@ -64,20 +64,20 @@ images
 
 ## API Endpoints Below: ##
 -- End Points --
-/auth
+* /auth
 
-/users
-/user/<string:username>
-/user/company
-/user/images
-/user/register
+* /users
+* /user/<string:username>
+* /user/company
+* /user/images
+* /user/register
 
-/companies
-/company/<string:company_name>
-/company/users
+* /companies
+* /company/<string:company_name>
+* /company/users
 
-/image/upload/<int:user_id>
-/image/<int:image_id> #Returns original image
-/image/<int:image_id>/<int:size> #Returns thumbnail size
+* /image/upload/<int:user_id>
+* /image/<int:image_id> #Returns original image
+* /image/<int:image_id>/<int:size> #Returns thumbnail size
 
 The above Models and Endpoints are for reference. If you need to add, remove, or modify any of these to make the site work please do so.
