@@ -1,7 +1,5 @@
 ### Python Web API Application ###
 
---- Please read all requirements before you bid ---
-
 My client requires an api built using flask-restful, flask-sqlalchemy, flask-JWT, running on Apache using mod_wsgi, and MySQL using celery to manage background tasks. Once the project is complete I will pay the full amount in a single Milestone.
 
 ## Requirements: ##
